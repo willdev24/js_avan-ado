@@ -1,9 +1,9 @@
-
+//javascripty é orientado a objetos com prototicos e nao orientado a objeto com classes !!
 
 
 const animal ={
 
-    som: "minhauuu",
+    som: "som de um anial",
     tipo: "animal",
     cor: "neutra",
     emitirSom: function(){
@@ -24,6 +24,15 @@ Object.setPrototypeOf(gato, animal)
 gato.emitirSom()
 
 
+const gatoRaivoso={
+
+    som:"sou muitoo braboo"
+  
+}
+
+Object.setPrototypeOf(gatoRaivoso,gato)
+gatoRaivoso.emitirSom()
+
 const cachorro ={
 
     som:"uhuuu",
@@ -34,3 +43,5 @@ const cachorro ={
 
 Object.setPrototypeOf(cachorro,animal)
 cachorro.emitirSom()
+
+console.log("teste")
