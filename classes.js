@@ -16,4 +16,4 @@ const carro3 = new carro("ford", 2010, "cinza")
 
 console.log(carro1)
 console.log(carro2)
-console.log(carro3)
+console.log(carro3 )
