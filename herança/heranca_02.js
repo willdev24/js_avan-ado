@@ -12,7 +12,7 @@ class dev{     //pai
            
 }
   saudac(){
-    console.log( `olá, me chamo ${this.nome},  tenho ${this.idade} anos sou dev ${this.stack} e minha principal linguagem e ${this.linguagem} \n` )
+    console.log( `olá, me chamo ${this.nome},  tenho ${this.idade} anos sou dev ${this.stack} e minha principal linguagem e ${this.linguagem}  \n` )
 }} 
 
 
