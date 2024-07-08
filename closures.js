@@ -7,12 +7,19 @@ const teste = (function(){   //declaro uma funçao imediata
 
     return function (){
 
-        console.log("testando escopo local de teste", n)
+        console.log("testando escopo local de teste", ++n)
         return "retorno " + n
     }
 
 
 })()
 
-console.log(teste) // aqui ele me retorna a funçao 
-console.log(teste()) // aq me retornna a execuçao da funçao
+//console.log(teste) // aqui ele me retorna a funçao 
+//console.log(teste()) // aq me retornna a execuçao da funçao
+
+
+// fazer um contador tamb com o closures
+// como a variavel n esta fora da funçao que esta sendo executada, eu posso aplica um acrecimo cada vez que ela é chamada 
+for(let i =0 ; i<10 ; i++){
+    console.log(teste() ) 
+}
