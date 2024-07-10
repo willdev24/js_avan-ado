@@ -29,7 +29,7 @@ function criarCachorro(name){
 return{
     name,
 
-    latir(){
+   latir(){
         console.log(this.name, "está latindo")
     },
     andar(distancia){
@@ -41,7 +41,7 @@ return{
         console.log(`${this.name} percorreu todo  trajeto e ganhou ${comida}`)
     },
 
-    position(){
+    get position(){
          return position
     }
 
@@ -58,7 +58,7 @@ rex.andar(400)
 rex.andar(400)
 rex.andar(400)
 rex.latir()
-console.log(rex.position())
+console.log(rex.position)
 
 //
 
@@ -68,5 +68,5 @@ apolo.andar(150)
 
 apolo.Comer("raçao pedigri")
 apolo.latir()
-console.log(apolo.position())
+console.log(apolo.position)
 //quase a mesma coisa que uma function contruct
