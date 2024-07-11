@@ -1,15 +1,23 @@
-function dog(name){
-this.name = name
+ const teste = function dog(name){
 
-this.rodar =function() {
-    console.log(name)
+    this.name = name
+    const self = this
     
-}
-}
+           
+       const rodar = function(num) {
+                console.log(self.name,"tem ", num)
+               
+            }
+      return{
+        rodar,
+        name
+      }
 
-const dog1 = new dog('gabby')
+ }
 
-dog.prototype.toString = function to(){
-   return `${this.name}`
-}
-console.log(dog1.toString())
+
+
+//teste("willao").rodar(24)
+const des= teste("will")
+console.log( des)
+teste(20).rodar(20)
