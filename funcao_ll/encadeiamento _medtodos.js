@@ -3,7 +3,7 @@
 // metodo muito bom para usar com validaçao de formularios 
 
 //reveal pattern e encadeamento de metodos + closures//       reveal pattern: É O ISOLAMENTO DE VARIAVEIS, 
-//SENDO VISTAS APENAS DENTRO DA SUA FUNÇAO/ OBJ LOCAL E GLOBALMENTE, EVITANDO CONFLITOS EM HTML COM MAIS DE UM SCRIPT 
+//SENDO VISTAS APENAS DENTRO DA SUA FUNÇAO/OBJ LOCAL E nao GLOBALMENTE, EVITANDO CONFLITOS EM HTML COM MAIS DE UM SCRIPT 
 
 const calc =(function (){
 
