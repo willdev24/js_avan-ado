@@ -30,16 +30,20 @@ carros03.mostrar()
 //---------//-----------//--------------//
 
 class moto  extends veiculos{
-    constructor(modelo,ano,cor,tipo){
+    constructor(modelo,ano,cor,tipo,valor){
         super(modelo,ano,cor,tipo)
-    
+    this.valorDEmercado = valor
+        }
+        mostrar01(){
+            console.log(`${this.tipo} ${this.modelo} , ${this.ano} na cor ${this.cor} avaliada em ${this.valorDEmercado} mil `)
         }
 }
 
-const moto01 = new moto("yamaha", 2015 , "branca", "mt09")
-const moto02 = new moto("honda", 2018 , "vermelho", "xre")
+const moto01 = new moto("yamaha", 2015 , "branca", "mt09",38.50)
+const moto02 = new moto("honda", 2018 , "vermelho", "xre", 25.00)
 
-moto01.mostrar()
-moto02.mostrar()
+moto01.mostrar01()
+moto02.mostrar01()
+console.log(moto01)
 
 console.log()
