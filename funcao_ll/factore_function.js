@@ -53,6 +53,7 @@ return{
 
 const rex = criarCachorro("willy")
 
+
 rex.Comer("pizza")
 rex.andar(400)
 rex.andar(400)

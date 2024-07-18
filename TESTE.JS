@@ -1,4 +1,4 @@
- const teste = function dog(name){
+ /*const teste = function dog(name){
 
     this.name = name
     const self = this
@@ -21,3 +21,15 @@
 const des= teste("will")
 console.log( des)
 teste(20).rodar(20)
+*/
+
+
+function Car(make, model, year) {
+  this.make = make;
+  this.model = model;
+  this.year = year;
+}
+
+const car1 = new Car('Eagle', 'Talon TSi', 1993);
+
+car1.make

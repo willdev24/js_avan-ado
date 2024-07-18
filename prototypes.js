@@ -20,8 +20,10 @@ const gato ={
 
 }
 
+
+
 Object.setPrototypeOf(gato, animal)
-gato.emitirSom()
+//gato.emitirSom()
 
 
 const gatoRaivoso={
@@ -31,7 +33,7 @@ const gatoRaivoso={
 }
 
 Object.setPrototypeOf(gatoRaivoso,gato)
-gatoRaivoso.emitirSom()
+//gatoRaivoso.emitirSom()
 
 const cachorro ={
 
@@ -42,6 +44,6 @@ const cachorro ={
 }
 
 Object.setPrototypeOf(cachorro,animal)
-cachorro.emitirSom()
+//achorro.emitirSom()
 
-console.log("teste")
+//console.log("teste")
